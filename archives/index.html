@@ -61,10 +61,7 @@
 			
 			pangu: "false",
 			
-				lazyload: {
-					threshold: 800,
-					effect: "fadeIn"
-				},
+				lazyload: false,
 			
 			disable_pjax: false,
 			headroom: false
@@ -444,6 +441,13 @@
 <div id="sidebar_mask"></div>
 <aside id="leftbar" class="leftbar widget-area" role="complementary">
 		
+			<div id="leftbar_announcement" class="card bg-white shadow-sm border-0">
+				<div class="leftbar-announcement-body">
+					<div class="leftbar-announcement-title text-white">公告</div>
+					<div class="leftbar-announcement-content text-white">5</div>
+				</div>
+			</div>
+		
 		<div id="leftbar_part1" class="widget widget_search card bg-white shadow-sm border-0">
 			<div class="leftbar-banner card-body">
 				<span class="leftbar-banner-title text-white">Isikaのblog</span>
@@ -477,7 +481,7 @@
 					<div class="tab-content" style="padding: 10px 10px 0 10px;">
 						
 						<div class="tab-pane fade text-center active show" id="leftbar_tab_overview" role="tabpanel" aria-labelledby="leftbar_tab_overview_btn">
-							<img id="leftbar_overview_author_image" src="https://github.com/Isikachan/pic/blob/main/Isikachan.jpg" class="img-fluid rounded-circle shadow-sm" style="width: 100px;" alt="avatar">
+							<img id="leftbar_overview_author_image" src="http://mixisya.herokuapp.com/%E5%9B%BE%E5%BA%93/Isikachan.jpg" class="img-fluid rounded-circle shadow-sm" style="width: 100px;" alt="avatar">
 							<h6 id="leftbar_overview_author_name">Isikachan</h6>
 							<nav class="site-state">
 								<div class="site-state-item site-state-posts">
@@ -510,16 +514,16 @@
 												<a href="https://www.instagram.com/takasu_taiga/" rel='noopener' target='_blank'>instagram</a>
 											</div>
 										
-											<div class='site-author-links-item'>
-												<a href="_blog.mixisya.top" rel='noopener' target='_blank'>Isikachan</a>
-											</div>
-										
 									</div>
 								
 							
 									<div class='site-friend-links'>
 										<div class='site-friend-links-title'><i class='fa fa-fw fa-link'></i> Links</div>
 										<ul class='site-friend-links-ul'>
+											
+												<li class='site-friend-links-item'>
+													<a href='_blog.mixisya.top' rel='noopener' target='_blank'>Isikachan</a>
+												</li>
 											
 										</ul>
 									</div>
