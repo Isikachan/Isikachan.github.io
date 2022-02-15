@@ -3,25 +3,25 @@
 <html class="article-header-style-default">
 <head>
 	
-	<title>Isikaのblog</title>
+	<title>yukaのblog</title>
 	<meta charset="utf-8">
 	
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	
 	<meta name="description" content="blogです">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Isikaのblog">
+<meta property="og:title" content="yukaのblog">
 <meta property="og:url" content="http://_blog.mixisya.com/index.html">
-<meta property="og:site_name" content="Isikaのblog">
+<meta property="og:site_name" content="yukaのblog">
 <meta property="og:description" content="blogです">
-<meta property="og:locale" content="en_US">
-<meta property="article:author" content="Isikachan">
-<meta property="article:tag" content="Isikachan">
+<meta property="og:locale">
+<meta property="article:author" content="yuka">
+<meta property="article:tag" content="yuka">
 <meta name="twitter:card" content="summary">
 
-	<meta name="theme-color" content="#5e72e4">
-	<meta name="theme-color-rgb" content="94,114,228">
-	<meta name="theme-color-origin" content="#5e72e4">
+	<meta name="theme-color" content="#E87A90">
+	<meta name="theme-color-rgb" content="232,122,144">
+	<meta name="theme-color-origin" content="#E87A90">
 	<meta name="argon-enable-custom-theme-color" content="true">
 	<meta name="theme-card-radius" content="4">
 	<meta name="theme-version" content="1.0.2">
@@ -61,7 +61,10 @@
 			
 			pangu: "false",
 			
-				lazyload: false,
+				lazyload: {
+					threshold: 800,
+					effect: "fadeIn"
+				},
 			
 			disable_pjax: false,
 			headroom: false
@@ -154,13 +157,13 @@
 <style id="themecolor_css">
 	
 	:root{
-		--themecolor: #5e72e4;
-		--themecolor-dark0: #5368E2;
-		--themecolor-dark: #485FE0;
-		--themecolor-dark2: #324CDD;
-		--themecolor-dark3: #233DD2;
-		--themecolor-light: #8A98EB;
-		--themecolor-rgbstr: 94,114,228;
+		--themecolor: #E87A90;
+		--themecolor-dark0: #E66F87;
+		--themecolor-dark: #E4647E;
+		--themecolor-dark2: #E04F6C;
+		--themecolor-dark3: #DD395A;
+		--themecolor-light: #F0A5B4;
+		--themecolor-rgbstr: 232,122,144;
 		--themecolor-gradient: linear-gradient(150deg,var(--themecolor-light) 15%, var(--themecolor) 70%, var(--themecolor-dark0) 94%);
 
 	}
@@ -180,7 +183,7 @@
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<a class="navbar-brand" href="/">Isikaのblog</a>
+				<a class="navbar-brand" href="/">yukaのblog</a>
 				<div class="navbar-collapse collapse" id="navbar_global">
 					<div class="navbar-collapse-header">
 						<div class="row">
@@ -205,7 +208,7 @@
 							<ul class='navbar-nav navbar-nav-hover align-items-lg-center'>
 								
 										<li class='nav-item'>
-											<a href='/home' class='nav-link' >
+											<a href='/' class='nav-link' >
 												<i class='ni ni-book-bookmark d-lg-none'></i>
 												<span class='nav-link-inner--text'>首页</span>
 											</a>
@@ -272,7 +275,7 @@
 </div>
 <!--Banner-->
 <section id="banner" class="banner section section-lg section-shaped">
-	<div class="shape shape-style-1 shape-primary">
+	<div class="shape  shape-primary">
 		<span></span>
 		<span></span>
 		<span></span>
@@ -287,7 +290,7 @@
 	
 	<div id="banner_container" class="banner-container container text-center">
 		
-			<div class="banner-title text-white"><span class="banner-title-inner">Isikaのblog</span>
+			<div class="banner-title text-white"><span class="banner-title-inner">yukaのblog</span>
 		
 		</div>
 	</div>
@@ -443,7 +446,7 @@
 		
 		<div id="leftbar_part1" class="widget widget_search card bg-white shadow-sm border-0">
 			<div class="leftbar-banner card-body">
-				<span class="leftbar-banner-title text-white">Isikaのblog</span>
+				<span class="leftbar-banner-title text-white">yukaのblog</span>
 				
 				
 			</div>
@@ -474,8 +477,8 @@
 					<div class="tab-content" style="padding: 10px 10px 0 10px;">
 						
 						<div class="tab-pane fade text-center active show" id="leftbar_tab_overview" role="tabpanel" aria-labelledby="leftbar_tab_overview_btn">
-							<img id="leftbar_overview_author_image" src="http://mixisya.herokuapp.com/%E5%9B%BE%E5%BA%93/Isikachan.jpg" class="img-fluid rounded-circle shadow-sm" style="width: 100px;" alt="avatar">
-							<h6 id="leftbar_overview_author_name">Isikachan</h6>
+							<img id="leftbar_overview_author_image" src="/assets/img/Isikachan.jpg" class="img-fluid rounded-circle shadow-sm" style="width: 100px;" alt="avatar">
+							<h6 id="leftbar_overview_author_name">yuka</h6>
 							<nav class="site-state">
 								<div class="site-state-item site-state-posts">
 									<a href="/archives">
@@ -491,7 +494,7 @@
 								</div>      
 								<div class="site-state-item site-state-tags">
 									<a data-toggle="modal" data-target="#blog_tags">
-										<span class="site-state-item-count">0</span>
+										<span class="site-state-item-count">1</span>
 										<span class="site-state-item-name">标签</span>
 									</a>
 								</div>
@@ -515,7 +518,7 @@
 										<ul class='site-friend-links-ul'>
 											
 												<li class='site-friend-links-item'>
-													<a href='https://_blog.mixisya.top/' rel='noopener' target='_blank'>Isikachan</a>
+													<a href='https://_blog.mixisya.top/' rel='noopener' target='_blank'>yuka</a>
 												</li>
 											
 										</ul>
@@ -552,7 +555,7 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				
+				<a class="badge badge-secondary tag" href="/tags/%E6%97%A5%E5%B8%B8/" rel="tag">日常 <span class="tag-num">1</span></a>
 			</div>
 		</div>
 	</div>
@@ -566,13 +569,13 @@
 	<article class="post card bg-white shadow-sm border-0 ">
 	<header class="post-header text-center">
 		
-		<a class="post-title" href="/2022/02/14/hello-world/">Hello World</a>
+		<a class="post-title" href="/2022/02/15/yuka-desu/">yuka desu</a>
 		<div class="post-meta">
 			
 						
 						<div class="post-meta-detail post-meta-detail-time">
 							<i class="fa fa-clock-o" aria-hidden="true"></i>
-							<time title="发布于 2022-2-14 11:52:19 | 编辑于 2022-2-14 11:47:02">2022-2-14 11:52
+							<time title="发布于 2022-2-15 9:50:37 | 编辑于 2022-2-15 10:13:39">2022-2-15 9:50
 							</time>
 						</div>
 					
@@ -591,7 +594,7 @@
 						
 						<div class="post-meta-detail post-meta-detail-words">
 							<i class="fa fa-file-word-o" aria-hidden="true"></i>
-							75 字
+							1 字
 						</div>
 					
 						
@@ -609,11 +612,18 @@
 	<div class="post-content">
 		
 			
-				Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you ca...
+				
+hi
+
 			
 		
 	</div>
 
+	
+		<div class="post-tags">
+			<i class="fa fa-tags" aria-hidden="true"></i>
+			<a class="tag badge badge-secondary post-meta-detail-tag -none-link" href="/tags/%E6%97%A5%E5%B8%B8/" rel="tag">日常</a>
+		</div>
 	
 </article>
 
@@ -629,11 +639,9 @@
 		
 
 					<footer id="footer" class="site-footer card shadow-sm border-0">
+						<span>© 2022 yukaのblog. 版权所有.</span>
 						
 						<div>Theme <a target="_blank" rel="noopener" href="https://github.com/solstice23/hexo-theme-argon"><strong>Argon</strong></a> | Powered by Hexo</div>
-						<span id="busuanzi_container_site_uv">
-							本站访客数 <span id="busuanzi_value_site_uv"></span> 人次
-						</span>
 					</footer>
 				</main>
 			</div>
@@ -644,6 +652,13 @@
 		
 		
 		
+
+		
+			<script>
+				var argonEnableCodeHighlight = true;
+			</script>
+			
+<link rel="stylesheet" href="/assets/vendor/highlight/styles/vs2015.css">
 
 		
 
